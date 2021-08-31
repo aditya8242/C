@@ -26,6 +26,6 @@ int main()
 		
 		centigrade = (temperature - 32) * 5/9;
 		
-		printf("Centigrade: %f\nFahrenheit: %f\n",centigrade,temperature);
+		printf("Fahrenheit: %f\nCentigrade: %f\n",temperature,centigrade);
 	}
 }
