@@ -1,5 +1,5 @@
 # C
-Set of problems while learning C
+Set of problems solved while learning C
 
 # Run the program(s):
   1) First clone the repository on your system.
