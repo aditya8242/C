@@ -9,8 +9,6 @@ int main()
 	a = 1;
 	b = 2;
 	
-	a++;
-	b--;
-	
-	printf("a = %d\nb = %d\n",a,b);
+	printf("a = %d\nb = %d\n",a++,b--);
+	printf("a = %d\nb = %d\n",++a,--b);
 }
