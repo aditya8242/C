@@ -1,4 +1,4 @@
-//WAP to calculate sum of digits of a five digit number
+//WAP to calculate sum of digits of a number
 
 #include <stdio.h>
 
@@ -11,7 +11,7 @@ int main()
 	
 	printf("Number: %d\n",number);
 	
-	for(int i = 1; i <= 5; i++)
+	while(number > 0)
 	{
 		digit = number % 10;
 		sum = sum + digit;

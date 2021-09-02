@@ -1,0 +1,12 @@
+//ASCII Table
+//Note: All ASCII values are not printable
+
+#include <stdio.h>
+
+int main()
+{
+	for(int i = 0; i < 256; i++)
+	{
+		printf("%d.%c\n",i,i);
+	}
+}

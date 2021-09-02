@@ -1,4 +1,4 @@
-//WAP to reverse the digits of a five digit number
+//WAP to reverse the digits of a number and check if its palindrome or not
 
 #include <stdio.h>
 
@@ -8,6 +8,8 @@ int main()
 	
 	printf("Enter a five digit number to get it reversed ");
 	scanf("%d",&num);
+	
+	temp = num;
 	
 	printf("Before reverse: %d\n",num);
 	
@@ -19,4 +21,13 @@ int main()
 	}
 	
 	printf("Reverse Number: %d\n",rev);
+	
+	if (temp == rev)
+	{
+		printf("The number %d is a palindrome number\n",temp);
+	}
+	else
+	{
+	printf("The number %d is not a palindrome number\n",temp);
+	}
 }
