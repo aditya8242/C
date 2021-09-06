@@ -4,7 +4,7 @@
 
 int main()
 {
-	int num,rev = 0,digit,temp;
+	int num,rev = 0,digit;
 	
 	printf("Enter a five digit number to get it reversed ");
 	scanf("%d",&num);
