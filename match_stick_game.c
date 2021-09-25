@@ -9,7 +9,7 @@ int main()
 	while(1)
 	{
 		printf("Number of match sticks left = %d\n",ms);
-		printf("Pick 1,2,3 or 4 matches ");
+		printf("\nPick 1,2,3 or 4 matches ");
 		scanf("%d",&user);
 		
 		if(user > 4 || user < 1)
@@ -17,18 +17,18 @@ int main()
 			continue;
 		}
 		ms = ms - user;
-		printf("User picked %d match sticks\n",user);
-		printf("Number of match sticks left = %d\n",ms);
+		printf("\nUser picked %d match sticks\n",user);
+		printf("\nNumber of match sticks left = %d\n",ms);
 		computer = 5 - user;
-		printf("Computer picked %d match sticks\n",computer);
-		printf("Number of match sticks left = %d\n",ms);
+		printf("\nComputer picked %d match sticks\n",computer);
+		printf("\nNumber of match sticks left = %d\n\n",ms);
 		
 		ms = ms - computer;
 		
 		if(ms == 1)
 		{
-			printf("Number of match sticks left = %d\n",ms);
-			printf("You have lost the game \nComputer won!\n");
+			printf("Number of match sticks left = %d\n\n",ms);
+			printf("\nYou have lost the game \nComputer won!\n");
 			break;
 		}
 		
@@ -45,36 +45,6 @@ int main()
 /* picking.*/
 /*-Whoever is forced to pick up the last matchstick*/
 /* loses the game.*/
-
-/* Sample run
-Number of match sticks left = 21
-Pick 1,2,3 or 4 matches 4
-User picked 4 match sticks
-Number of match sticks left = 17
-Computer picked 1 match sticks
-Number of match sticks left = 17
-Number of match sticks left = 16
-Pick 1,2,3 or 4 matches 4
-User picked 4 match sticks
-Number of match sticks left = 12
-Computer picked 1 match sticks
-Number of match sticks left = 12
-Number of match sticks left = 11
-Pick 1,2,3 or 4 matches 4
-User picked 4 match sticks
-Number of match sticks left = 7
-Computer picked 1 match sticks
-Number of match sticks left = 7
-Number of match sticks left = 6
-Pick 1,2,3 or 4 matches 2
-User picked 2 match sticks
-Number of match sticks left = 4
-Computer picked 3 match sticks
-Number of match sticks left = 4
-Number of match sticks left = 1
-You have lost the game 
-Computer won!
-*/
 
 /*
 Note:Computer will always win😂
