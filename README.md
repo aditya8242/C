@@ -32,3 +32,4 @@ make <filename>.c
 3)Then
 ```
 ./<filename>
+```
