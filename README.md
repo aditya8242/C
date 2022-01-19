@@ -23,7 +23,7 @@ Open terminal in the project directory and compile any program file using below 
 
 # Running the program(s) using make tool
 
-1)Make sure you have the make tool install
+1)Make sure you have the make tool installed
 
 2)Open terminal in the project directory and compile any program file using below command.
 ```
