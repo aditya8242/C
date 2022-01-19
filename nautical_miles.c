@@ -26,5 +26,5 @@ int main()
 	
 	D = 3963 * acos( sin(L1) * sin(L2) + cos(L1) * cos(L2) * cos(G1 - G2));
 	
-	printf("%f\n",D);
+	printf("Distance in nautical miles is %f\n",D);
 }
