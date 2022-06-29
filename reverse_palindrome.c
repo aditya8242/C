@@ -6,7 +6,7 @@ int main()
 {
 	int num,rev = 0,digit,temp;
 	
-	printf("Enter a five digit number to get it reversed ");
+	printf("Enter a number to get it reversed ");
 	scanf("%d",&num);
 	
 	temp = num;
