@@ -1,4 +1,4 @@
-//WAP to reverse the digits of a five digit number
+//WAP to reverse the digits of a number
 
 #include <stdio.h>
 
@@ -6,7 +6,7 @@ int main()
 {
 	int num,rev = 0,digit;
 	
-	printf("Enter a five digit number to get it reversed ");
+	printf("Enter a number to get it reversed ");
 	scanf("%d",&num);
 	
 	printf("Before reverse: %d\n",num);
