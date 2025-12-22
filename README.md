@@ -27,8 +27,10 @@ Open terminal in the project directory and compile any program file using below 
 
 2)Open terminal in the project directory and compile any program file using below command.
 ```
-make <filename>.c
+make <filename>
 ```
+`Do not use .c after file name`
+
 3)Then
 ```
 ./<filename>
